@@ -1,23 +1,16 @@
-# todo-app-01
+# todo-app-03
 
 ## Project setup
 ```
-npm install
-```
+npm install -g @vue/cli
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+vue create todo-app
 
-### Compiles and minifies for production
-```
-npm run build
-```
+cd todo-app
 
-### Lints and fixes files
-```
-npm run lint
+npm install sass-loader node-sass --save
+
+npm install vuex@next --save
 ```
 
 ### Customize configuration
